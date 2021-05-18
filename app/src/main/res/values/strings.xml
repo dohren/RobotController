@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Robot-Controller</string>
+    <string name="btn_connect">Verbinden</string>
+    <string name="btn_speech">Sprache</string>
+</resources>
