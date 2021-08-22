@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         // don't include calls to setNamePattern() and addServiceUuid(),
         // respectively. This example uses Bluetooth.
         deviceFilter = new BluetoothDeviceFilter.Builder()
-                .setNamePattern(Pattern.compile("HC-02"))
+                .setNamePattern(Pattern.compile("ESP32test"))
                 //.addServiceUuid(new ParcelUuid(new UUID(0x123abcL, -1L)), null)
                 .build();
 

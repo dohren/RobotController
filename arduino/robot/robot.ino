@@ -6,6 +6,8 @@
 **********************************************************************/
 #include "BluetoothSerial.h"
 
+//
+//const int l1=16,l2=17,r1=18,r2=5,speedl=19,speedr=4;
 const int r1=17,r2=16,l1=5,l2=18,speedr=4,speedl=19;
 const byte numChars = 32;
 char receivedChars[numChars];
